@@ -3,3 +3,6 @@
 .nvmrc
 renovate.json
 jest.config.js
+tsconfig.json
+src
+tests

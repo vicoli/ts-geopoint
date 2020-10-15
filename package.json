@@ -1,9 +1,22 @@
 {
   "name": "ts-geopoint",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Representation of a geographic point for node.js and the browser written in Typescript.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "author": "Alexander Pirsig <self@pirsig.net>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vicoli/ts-geopoint.git"
+  },
+  "keywords": [
+    "geolocation",
+    "point",
+    "distance",
+    "bounding box",
+    "radius"
+  ],
   "scripts": {
     "clean": "rimraf dist",
     "build": "tsc",
@@ -11,8 +24,6 @@
     "test:watch": "jest --watchAll",
     "prepublish": "npm run build"
   },
-  "author": "Alexander Pirsig <self@pirsig.net>",
-  "license": "MIT",
   "devDependencies": {
     "@types/jest": "^26.0.14",
     "@typescript-eslint/eslint-plugin": "^4.4.1",
