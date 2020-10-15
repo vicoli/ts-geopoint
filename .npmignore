@@ -1,0 +1,5 @@
+.github
+.editorconfig
+.nvmrc
+renovate.json
+jest.config.js
